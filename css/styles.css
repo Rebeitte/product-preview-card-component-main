@@ -21,11 +21,14 @@ html {
 
 body {
     background-color: var(--Cream);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 main {
-    padding-inline: 1rem;
-    padding-top: 3rem;
     width: 37.5rem;
 }
 
